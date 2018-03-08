@@ -26,7 +26,7 @@ static class RandomExtensions
             for (int i = 0;i < numOfStudents;i++) {
                 Console.WriteLine(ids[i]);
             }
-        } catch (FormatException e) {
+        } catch (Exception e) {
             Console.WriteLine("That is not a number you big dummy!");
             Console.WriteLine("Error = {0}", e);
         }
